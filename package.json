@@ -1,0 +1,27 @@
+{
+  "name": "ui-availability-tests",
+  "version": "1.0.0",
+  "description": "Puppeteer-based UI availability tests for nginx and HTTP web applications.",
+  "main": "run.js",
+  "scripts": {
+    "test": "jest --runInBand",
+    "check": "node run.js",
+    "check:url": "node run.js"
+  },
+  "keywords": [
+    "puppeteer",
+    "nginx",
+    "availability",
+    "smoke-test",
+    "uptime",
+    "jest"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^23.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
+
